@@ -11,6 +11,12 @@ h1{
 h3{
     color: #363958;
 }
+h4{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    float: left;
+}
 p{
     font-family: 'Roboto';
     font-size: 16px;
@@ -80,6 +86,51 @@ padding: 4%;
     font-size: 48px;
     line-height: 48px;
     border: 1px solid red
+}
+.skill h1{
+    text-align: center;
+    color: rgb(204, 86, 65);
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+.contacts{
+    background: url("images/background.png");
+    width: 906px;
+    height: 225px;
+    padding: 40px;
+    margin:100px 0px 150px 150px ;
+    background-repeat: no-repeat;
+}
+.contacts p{
+    float: right;
+    padding: 12px 25px;
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 90px 0px 0px 90px;
+}
+.footer{
+    text-align: center;
+}
+.last-sec{
+    height: 200px;
+}
+.icons{
+    height: 40px;
+    width: 40px;
 }
 .heilight-part{
     color: rgb(223, 107, 65);
